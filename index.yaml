@@ -1,0 +1,15 @@
+indexes:
+
+- kind: User
+  ancestor: yes
+  properties:
+  - name: Name
+  - name: Email
+
+
+
+- kind: Result
+  ancestor: yes
+  properties:
+  - name: Email
+  - name: Score
